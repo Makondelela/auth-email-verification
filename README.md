@@ -40,16 +40,16 @@ This project is a full-stack application designed to demonstrate a user authenti
                                                                       in your gmail portal under 2 step authentication]
     Update the database username, password, and database name with your actual credentials.
 ### 3. Backend Setup:
-- Ensure you have Java gradle installed.
-- Run the application using gradle:
-./gradlew bootRun
+   - Ensure you have Java gradle installed.
+   - Run the application using gradle:
+   ./gradlew bootRun
 ### 3. Frontend Setup:
--Open http://localhost/index.html in your preferred browser.
--The application should be accessible through the frontend interface.
+   -Open http://localhost:8080/index.html in your preferred browser.
+   -The application should be accessible through the frontend interface.
 
 ### API Endpoints:
-POST /signup: Registers a new user and sends an activation email.
-GET /activate: Activates the user's account based on the token provided.
-POST /request-new-activation: Resends the activation link if the account is not yet activated.
-POST /login: Authenticates the user.
+   POST /signup: Registers a new user and sends an activation email.
+   GET /activate: Activates the user's account based on the token provided.
+   POST /request-new-activation: Resends the activation link if the account is not yet activated.
+   POST /login: Authenticates the user.
 
