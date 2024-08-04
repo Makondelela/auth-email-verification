@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activation Link Resent</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #ececec;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 85%;
+            max-width: 450px;
+            padding: 25px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #d9534f;
+            font-size: 26px;
+            margin-bottom: 18px;
+            font-weight: 700;
+        }
+
+        p {
+            color: #5d5d5d;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 15px;
+            color: #ffffff;
+            background-color: #d9534f;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #c9302c;
+        }
+
+        .footer {
+            margin-top: 25px;
+            color: #9c9c9c;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>Link Resent Successfully</h1>
+    <p>We’ve resent your activation link. Check your inbox and follow the instructions to activate your account.</p>
+    <a href="mailto:support@yourcompany.com" class="btn">Get Help</a>
+    <div class="footer">
+        <p>If you didn’t request this link, you can safely ignore this message.</p>
+    </div>
+</div>
+</body>
+</html>
