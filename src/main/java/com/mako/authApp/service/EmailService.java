@@ -29,7 +29,7 @@ public class EmailService {
                 "</html>";
 
 
-        helper.setFrom("makondelelamaps@gmail.com");
+        helper.setFrom("yourEmailAdress");
         helper.setTo(to);
         helper.setSubject(subject);
         helper.setText(htmlContent, true);
