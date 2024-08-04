@@ -25,8 +25,7 @@ This project is a full-stack application designed to demonstrate a user authenti
 
 - `src/main/java/com/mako/authApp`: Contains the Java source code for the backend, including controllers, services, and entities.
 - `src/main/resources/templates`: Holds the HTML files used for the user interface.
-- `static/css`: Contains CSS files for styling the frontend.
-- `static/js`: Contains JavaScript files for frontend functionality.
+
 
 ## Setup Instructions
 
